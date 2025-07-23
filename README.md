@@ -88,7 +88,7 @@ Traditional methods (manual counts, periodic estimates) are insufficient for dyn
 
 ## 📽️ Demos
 
-- [🏙️ BI demo]([https://youtu.be/7_HZYdDygd4](https://v0-ruta360-computer-vision.vercel.app/))
+- [🏙️ BI demo](https://v0-ruta360-computer-vision.vercel.app/)
 
 ## 🧪 Prototype Roadmap
 
