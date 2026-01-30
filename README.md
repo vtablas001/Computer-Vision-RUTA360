@@ -126,8 +126,7 @@ results = model("demo_video.mp4", stream=True, conf=0.4)
 ## 📬 Contact
 
 **Víctor A. Tablas**  
-Head of Experimentation, UNDP El Salvador  
-✉️ victor.tablas@undp.org  
+✉️ victor.tablas@gmail.com
 🔗 [LinkedIn](https://www.linkedin.com/in/victor-tablas/)
 
 ## 📄 License
