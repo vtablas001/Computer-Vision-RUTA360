@@ -1,5 +1,5 @@
 
-# 🧭 RUTA360: Computer Vision Prototype for Tourism Intelligence in El Salvador
+# RUTA360: Computer Vision Prototype for Tourism Intelligence in El Salvador
 
 **RUTA360** is an AI-powered computer vision prototype designed to provide real-time tourism intelligence in public spaces and natural parks across El Salvador. By using YOLOv8 and outdoor IP cameras, this solution aims to track visitor flow, identify crowding patterns, and support data-driven decision-making for institutions such as MITUR and ISTU.
 
