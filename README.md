@@ -3,13 +3,13 @@
 
 **RUTA360** is an AI-powered computer vision prototype designed to provide real-time tourism intelligence in public spaces and natural parks across El Salvador. By using YOLOv8 and outdoor IP cameras, this solution aims to track visitor flow, identify crowding patterns, and support data-driven decision-making for institutions such as MITUR and ISTU.
 
-- [🏙️ Ruta 360 demo](https://v0-ruta360-computer-vision.vercel.app/)
+- [Ruta 360 demo](https://v0-ruta360-computer-vision.vercel.app/)
 
-## 📌 Executive Summary
+##  Executive Summary
 
 El Salvador's parks and urban spaces are witnessing a steady increase in tourism, yet current monitoring tools fall short in capturing real-time visitor dynamics. RUTA360 bridges that gap using AI-based detection and tracking, enabling smarter planning, infrastructure optimization, and safer tourist experiences.
 
-## 🌍 Context
+##  Context
 
 Places like El Boquerón, Historic Downtown, and Cerro Verde face:
 - Overcrowding in peak hours
@@ -21,7 +21,7 @@ Traditional methods (manual counts, periodic estimates) are insufficient for dyn
 - Real-time crowding
 - Infrastructure usage patterns
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 **Core Libraries & Tools**
 
@@ -38,7 +38,7 @@ Traditional methods (manual counts, periodic estimates) are insufficient for dyn
 - Solar/battery-powered outdoor setups
 - Optional stereo vision for 3D mapping
 
-## 📊 Key Tourism Metrics
+##  Key Tourism Metrics
 
 | Metric                         | Description |
 |-------------------------------|-------------|
@@ -52,25 +52,25 @@ Traditional methods (manual counts, periodic estimates) are insufficient for dyn
 | Infrastructure Utilization    | Bathrooms, picnic zones, soccer fields |
 | Real-Time Congestion Alerts   | Safety & crowd control |
 
-## 🎯 Hypotheses to Validate
+##  Hypotheses to Validate
 
 - If shaded areas correlate with longer dwell time → improve rest zones.
 - If entry peaks differ between weekdays vs weekends → optimize staffing.
 - If real-time congestion detected → activate overflow strategies or reroute.
 - If trail usage is low → evaluate signage/accessibility.
 
-## 🚀 How It Works
+##  How It Works
 
-### 1. 📽️ Data Capture
+### 1. Data Capture
 - Drone or static camera footage
 - Annotate using Roboflow or MakeSense.ai
 
-### 2. 🧠 Model Setup
+### 2. Model Setup
 - YOLOv8 pretrained on COCO dataset
 - Fine-tune on local data (optional)
 - Run inference with BoT-SORT for tracking
 
-### 3. 🧰 Deployment
+### 3. Deployment
 - Install cameras and solar power systems
 - Configure detection + tracking pipelines
 - Store metrics in local/cloud databases
@@ -79,29 +79,29 @@ Traditional methods (manual counts, periodic estimates) are insufficient for dyn
 - Power BI dashboards for MITUR, ISTU
 - Daily/weekly reports and alerts
 
-## 🌱 Ethics, Privacy & Sustainability
+## Ethics, Privacy & Sustainability
 
-- ✅ No facial recognition or PII collected
-- ✅ GDPR-aligned privacy practices
-- ☀️ Solar-powered and environmentally sustainable
-- 🛡️ Tamper-proof installations
+-  No facial recognition or PII collected
+-  GDPR-aligned privacy practices
+-  Solar-powered and environmentally sustainable
+-  Tamper-proof installations
 
-## 🧪 Prototype Roadmap
+## Prototype Roadmap
 
-1. ✅ Initial video-based pilot
-2. 🔧 Model tuning + validation
-3. 🛰️ Real-world camera installation
-4. 📊 Dashboard development
-5. 📋 Hypothesis testing & insights
+1.  Initial video-based pilot
+2.  Model tuning + validation
+3.  Real-world camera installation
+4.  Dashboard development
+5.  Hypothesis testing & insights
 
-## 📡 Scaling & Governance
+##  Scaling & Governance
 
 - **Institutional Hosting**: MITUR, ISTU or municipalities
 - **Cloud Infra**: Google Cloud Vertex AI or gov. datacenter
 - **Funding**: National tourism budgets + IDB/CAF/BCIE grants
 - **Maintenance**: Public-private partnerships for ops support
 
-## ⚠️ Risks & Mitigation
+##  Risks & Mitigation
 
 | Risk                         | Likelihood | Mitigation |
 |-----------------------------|------------|------------|
@@ -110,7 +110,7 @@ Traditional methods (manual counts, periodic estimates) are insufficient for dyn
 | Privacy concerns            | Medium     | Transparency + blurred faces |
 | Low-light detection failure | Medium     | Camera placement + fine-tuning |
 
-## 🤖 Sample YOLOv8 Configuration
+##  Sample YOLOv8 Configuration
 
 ```python
 from ultralytics import YOLO
@@ -119,12 +119,12 @@ model = YOLO("yolov8n.pt")
 results = model("demo_video.mp4", stream=True, conf=0.4)
 ```
 
-## 📬 Contact
+##  Contact
 
 **Víctor A. Tablas**  
-✉️ victor.tablas@gmail.com
-🔗 [LinkedIn](https://www.linkedin.com/in/victor-tablas/)
+victor.tablas@gmail.com
+[LinkedIn](https://www.linkedin.com/in/victor-tablas/)
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
