@@ -3,6 +3,8 @@
 
 **RUTA360** is an AI-powered computer vision prototype designed to provide real-time tourism intelligence in public spaces and natural parks across El Salvador. By using YOLOv8 and outdoor IP cameras, this solution aims to track visitor flow, identify crowding patterns, and support data-driven decision-making for institutions such as MITUR and ISTU.
 
+<img width="1915" height="896" alt="image" src="https://github.com/user-attachments/assets/e7e1f507-de31-40f6-bfec-bf0d8cef2037" />
+
 - [Ruta 360 demo](https://v0-ruta360-computer-vision.vercel.app/)
 
 ##  Executive Summary
@@ -20,6 +22,9 @@ Traditional methods (manual counts, periodic estimates) are insufficient for dyn
 - Movement and behavior within parks
 - Real-time crowding
 - Infrastructure usage patterns
+
+<img width="1260" height="717" alt="image" src="https://github.com/user-attachments/assets/bfadb5c8-dd40-4bb3-bdf3-5fd1e434e481" />
+
 
 ##  Tech Stack
 
