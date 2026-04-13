@@ -13,7 +13,7 @@ El Salvador's parks and urban spaces are witnessing a steady increase in tourism
 
 ##  Context
 
-Places like El Boquerón, Historic Downtown, and Cerro Verde face:
+Places like Balboa Park, El Boquerón, Historic Downtown, and Cerro Verde face:
 - Overcrowding in peak hours
 - Underused infrastructure
 - Limited real-time visitor data
@@ -81,7 +81,7 @@ Traditional methods (manual counts, periodic estimates) are insufficient for dyn
 - Store metrics in local/cloud databases
 
 ### 4. 📈 Dashboarding
-- Power BI dashboards for MITUR, ISTU
+- BI dashboards for institution such as MITUR and ISTU
 - Daily/weekly reports and alerts
 
 ## Ethics, Privacy & Sustainability
