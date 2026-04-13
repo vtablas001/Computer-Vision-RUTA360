@@ -38,7 +38,8 @@ Traditional methods (manual counts, periodic estimates) are insufficient for dyn
 [![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?logo=google-colab&logoColor=white)](https://colab.research.google.com/)
 
 **Hardware Components**
-- [LUCID Vision Labs Triton IP67 Camera](https://thinklucid.com/)
+- [LUCID Vision Labs Triton IP67 Camera](https://thinklucid.com/) are Roboflow recommendations
+- Edge Computing Device (Jetson Orin)
 - 6m galvanized poles
 - Solar/battery-powered outdoor setups
 - Optional stereo vision for 3D mapping
