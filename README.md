@@ -102,7 +102,6 @@ Traditional methods (manual counts, periodic estimates) are insufficient for dyn
 ##  Scaling & Governance
 
 - **Institutional Hosting**: MITUR, ISTU or municipalities
-- **Cloud Infra**: Google Cloud Vertex AI or gov. datacenter
 - **Funding**: National tourism budgets + IDB/CAF/BCIE grants
 - **Maintenance**: Public-private partnerships for ops support
 
